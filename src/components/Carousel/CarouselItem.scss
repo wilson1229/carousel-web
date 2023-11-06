@@ -1,0 +1,46 @@
+.carousel-item-wrapper {
+    width: 1120px;
+    height: 474px;
+    padding-left: 93px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+    justify-content: center;
+    background-repeat: no-repeat;
+
+    .item-title {
+        font-weight: 900;
+        font-size: 40px;
+        color: #202020;
+        line-height: 48px;
+        width: 408px;
+        
+    }
+    .item-desc {
+        font-weight: 400;
+        font-size: 20px;
+        color: #202020;
+        line-height: 24px;
+        width: 600px;
+        margin-top: 30px;
+    }
+    .item-button {
+        width: 200px;
+        height: 48px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #202020;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 30px;
+
+
+    }
+    
+}

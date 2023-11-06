@@ -1,0 +1,48 @@
+.carousel-wrapper {
+	width: 1280px;
+	height: 602px;
+	background: #f4f4f4;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	.carousel-inner-layout {
+		width: 1120px;
+		overflow: hidden;
+	}
+	.carousel-inner {
+		width: auto;
+		transition: all 0.4s ease;
+		display: flex;
+	}
+	.carousel-control {
+		position: absolute;
+		top: 50%;
+		margin-top: -20px;
+		width: 1230px;
+		display: flex;
+		justify-content: space-between;
+		font-size: 40px;
+		color: #202020;
+		cursor: pointer;
+	}
+
+	.carousel-dots-wrapper {
+		display: flex;
+		position: absolute;
+		bottom: 40px;
+
+		.dot {
+			background: #fff;
+			width: 8px;
+			height: 8px;
+			border-radius: 8px;
+            cursor: pointer;
+            margin-left: 8px;
+            &.active {
+                background-color: #202020
+            }
+		}
+	}
+}
