@@ -3,7 +3,7 @@
 此应用是基于 Carousel-server 后端服务做的前端展示，使用react typescript 开发完成。
 项目包含了轮播图的展示以及轮播的管理页面，包括轮播图的增删改查。
 
-具体示例可参考链接：[http://106.14.164.31:6005](url?_blank)
+具体示例可参考链接： <a href="http://106.14.164.31:6005" target="_blank">Demo Link</a>
 
 ## Available Scripts
 
