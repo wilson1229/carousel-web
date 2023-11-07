@@ -52,7 +52,7 @@ const Manage = () => {
 	const { carouselId } = useParams();
 	const [openCreateModal, setOpenCreateModal] = useState(false);
 	const [currentUpdateItem, setCurrentUpdateItem] =
-		useState<CarouselItemData|null>(null);
+		useState<CarouselItemData | null>(null);
 	const [form] = Form.useForm();
 	const handleUpdate = (item: CarouselItemData | null) => () => {
 		setCurrentUpdateItem(item);

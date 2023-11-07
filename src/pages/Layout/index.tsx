@@ -5,13 +5,11 @@ import { SettingOutlined, FundViewOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 
-
-
 const Layout = () => {
 	const navigate = useNavigate();
 	const location = useLocation();
 	const [current, setCurrent] = useState(
-		 /\/manage\/.*/.test(location.pathname) ? 'manage' : 'carousel'
+		/\/manage\/.*/.test(location.pathname) ? 'manage' : 'carousel'
 	);
 
 	const items: MenuProps['items'] = [
